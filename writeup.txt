@@ -1,0 +1,10 @@
+strategy:
+We only need to circle around 10 tiles. The "circle" is a 3x4 diagonal square.
+There are three advantages:
+1. When we get to the last tile in our cicrle, the first tile can be harvested. So we get the time efficiency;
+2. No need to put out a fire. Because we WILL DEFINITELY get to the tile which is on fire in a relatively short time  as we are circleling. Puting out a fire on a tile which locates outside of our route will instead be a waste of time. More importantly, in case of a fire, the fire will not spread on our other tiles as all the tiles are located on the diagonal line.
+3.  When we are circleling, if the tile is owned by the enemy bot, we can just set that tile on fire  and move on. 
+
+In all, our stratedy is "coping with shifting events by sticking to a fundamental principle".
+
+
